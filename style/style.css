@@ -1,0 +1,166 @@
+body{
+    font-family: 'Inter', sans-serif;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .nav-link:hover{
+    color:#ff8d1e;
+  }
+  .az {
+    transition: 0.4s;
+  }
+  .az:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
+  }
+  .sekil{
+    height: 700px;
+    width: 100%;
+    background-color: rebeccapurple;
+  }
+  .img{
+    background-image: url(banner.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .spl {
+    background-color: orange;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 60px;
+  }
+  .geofizikakomite{
+    font-size: 1.9rem;
+  }
+  #haqqimizda{
+    padding: 80px 0 0;
+  }
+  .haqqimizda > p, h5, h6{
+    padding: 0 5px ;
+  }
+  
+  .box-item{
+    display: flex;
+  }
+  .item {
+    width: 50%;
+  }
+  .item1{
+    width: 50%;
+  }
+  .kart{
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .kart::after{
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: -100%;
+        left: 0;
+        position: absolute;
+        background-color: #ff8d1e;
+        z-index: -1;
+        transition: 0.4s;
+    }
+    .kart:hover{
+        background-color:#fff;  
+        color: #0B5ED7;
+    }
+    .kart:hover h2,
+    .kart:hover p{
+      color: black;
+    }
+    .kart:hover::after{
+        opacity: 1;
+        top: 0;
+    }
+    .card-effect{
+        box-shadow: 5px 10px 10px #888 ;
+        background-color:#fff;
+        padding: 25px;
+        transition: 0.4s;
+    }
+    .card-effect:hover{
+        transform: translateY(0px);
+    }
+    .photo{
+      width: 95%;
+    }
+    .jusrnalhisse{
+      display: flex;
+      margin-top: 80px;
+      flex-direction: row-reverse;
+    }
+    .jusrnalhisse>h5{
+      padding-left: 100px;
+      line-height: 40px;
+    }
+    .left{
+      width: 50%;
+    }
+    .left>h5{
+      line-height: 40px;
+    }
+    .right{
+      width: 50%;
+    }
+    .son{
+      line-height: 40px;
+    }
+    .mapdivision{
+      margin-bottom: 100px;
+    }
+    .map{
+      height: 400px;
+      width: 60%;
+    }
+  @media(max-width:600px) {
+    .geofizikakomite{
+      font-size: 1.2rem;
+    }
+    .item1{
+      width: 100%;
+    }
+    .box-item{
+      display: none;
+    }
+    .sekil{
+      height: 300px;
+    }
+    .photo{
+      width: 100%;
+    }
+    .jusrnalhisse{
+      display: inline;
+    }
+    .right{
+      width: 100%;
+    }
+    .left{
+      width: 100%;
+      margin-bottom: 30px;
+    }
+    .son{
+      line-height: 30px;
+    }
+    .mapdivision{
+      margin: 0 0 50px;
+    }
+    .map{
+      width: 90%;
+      height: 100%;
+    }
+  }
+  @media(max-width:1400px){
+    .left>h5{
+      font-size: 15px;
+      line-height: normal;
+    }
+  }
