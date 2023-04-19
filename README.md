@@ -1,0 +1,2 @@
+# AMGK
+Global Page
