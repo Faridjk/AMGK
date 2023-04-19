@@ -48,6 +48,9 @@ body{
   .box-item{
     display: flex;
   }
+  .social-link{
+    font-size: 30px;
+  }
   .item {
     width: 50%;
   }
@@ -156,6 +159,18 @@ body{
     .map{
       width: 90%;
       height: 100%;
+    }
+    footer h1{
+      font-size: 20px;
+    }
+    footer h6{
+      font-size: 15px;
+    }
+    footer p{
+      font-size: 13px;
+    }
+    .social-link{
+      font-size: 20px;
     }
   }
   @media(max-width:1400px){
